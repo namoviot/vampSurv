@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/CODING/vampSurv/build",
+  "command": "J:\\Qt\\Tools\\mingw810_32\\bin\\c++.exe -ID:/CODING/vampSurv/dep/include -o CMakeFiles\\vampSurv.dir\\main.cpp.obj -c D:\\CODING\\vampSurv\\main.cpp",
+  "file": "D:\\CODING\\vampSurv\\main.cpp",
+  "output": "CMakeFiles\\vampSurv.dir\\main.cpp.obj"
+},
+{
+  "directory": "D:/CODING/vampSurv/build",
+  "command": "J:\\Qt\\Tools\\mingw810_32\\bin\\c++.exe -ID:/CODING/vampSurv/dep/include -o CMakeFiles\\vampSurv.dir\\some.cpp.obj -c D:\\CODING\\vampSurv\\some.cpp",
+  "file": "D:\\CODING\\vampSurv\\some.cpp",
+  "output": "CMakeFiles\\vampSurv.dir\\some.cpp.obj"
+}
+]
