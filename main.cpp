@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "some.h"
 
-#define GLEW_STATIC
 #include <GL/glew.h>
 
 
