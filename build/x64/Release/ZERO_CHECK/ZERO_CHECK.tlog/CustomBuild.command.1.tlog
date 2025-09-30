@@ -1,0 +1,10 @@
+^D:\CODING\VAMPSURV\BUILD\CMAKEFILES\048EB9A4D1C777B923E45FA44CAD7B3A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CODING/vampSurv -BD:/CODING/vampSurv/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CODING/vampSurv/build/vampSurv.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

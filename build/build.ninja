@@ -64,10 +64,10 @@ build CMakeFiles/vampSurv.dir/some.cpp.obj: CXX_COMPILER__vampSurv_unscanned_ D$
 #############################################
 # Link the executable vampSurv.exe
 
-build vampSurv.exe: CXX_EXECUTABLE_LINKER__vampSurv_ CMakeFiles/vampSurv.dir/main.cpp.obj CMakeFiles/vampSurv.dir/some.cpp.obj | D$:/CODING/vampSurv/dep/libSDL3.dll.a
-  LINK_LIBRARIES = D:/CODING/vampSurv/dep/libSDL3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build vampSurv.exe: CXX_EXECUTABLE_LINKER__vampSurv_ CMakeFiles/vampSurv.dir/main.cpp.obj CMakeFiles/vampSurv.dir/some.cpp.obj | D$:/CODING/vampSurv/dep/glew32.lib D$:/CODING/vampSurv/dep/SDL3.lib
+  LINK_LIBRARIES = D:/CODING/vampSurv/dep/glew32.lib  D:/CODING/vampSurv/dep/SDL3.lib  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\vampSurv.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\CODING\vampSurv\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/CODING/vampSurv/dep/SDL3.dll D:/CODING/vampSurv/build"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\CODING\vampSurv\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/CODING/vampSurv/dep/SDL3.dll D:/CODING/vampSurv/dep/glew32.dll D:/CODING/vampSurv/build"
   PRE_LINK = cd .
   TARGET_FILE = vampSurv.exe
   TARGET_IMPLIB = libvampSurv.dll.a

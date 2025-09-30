@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CODING\vampSurv\build\CMakeFiles\048eb9a4d1c777b923e45fa44cad7b3a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAF7BBF5-683E-30B9-9579-3AF9EE523EF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
